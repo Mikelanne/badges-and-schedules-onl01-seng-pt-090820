@@ -15,7 +15,7 @@ def assign_rooms(people)
 end
 
 def printer(people)
-  people.map do 
+  people.map do |person, index|
     puts 
 end
 end
